@@ -10,8 +10,7 @@ header{
 .banner{
     border-radius: 16px;
     position: relative;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/BannerImage.png');   
-    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/BannerImage.png');   
     background-size: 100% 100%;     
     max-width: 1320px;
     height: 600px;
@@ -64,5 +63,61 @@ header{
 .new-year-img{
     width: 802.9px;
     height: 500px;
-   
+}
+
+.party-section{
+    margin-left: 140px;
+    margin-right: 140px ;
+}
+.welcome-party{
+    max-width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
+    background-size: 100% 100%;  
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 126px;
+    padding-right: 138px;
+    margin-top: 120px;  
+}
+
+.greeting{
+    color: #FFF;
+    font-family: Merriweather;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 126px;
+    font-weight: 700;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7px;
+}
+.description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding-top: 24px; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.join-btn{
+    margin-left: 20px;
+    padding: 16px 32px;;
+    border-radius: 10px;
+    background-color: #F00;
+    border: 0;
+    font-weight: bold;
+}
+.balloon-wish{
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
 }
