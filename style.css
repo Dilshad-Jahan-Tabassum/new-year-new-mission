@@ -135,7 +135,7 @@ header{
 /* hotel-place section start */
 .hotel{
     margin-top: 120px;
-    max-width: 1600px;
+    max-width: 1320px;
     height: 482px;
     
 }
@@ -161,7 +161,7 @@ header{
 .join-now-btn{
     text-align: center;
     margin-top: 48px;
-    margin-left: 50%;
+    margin-left: 45%;
     padding: 16px 32px;;
     border-radius: 10px;
     background-color: #F00;
